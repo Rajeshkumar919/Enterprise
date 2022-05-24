@@ -1,0 +1,30 @@
+table, th, td{
+    border: 1px saddlebrown ;
+}
+
+table{
+    width: 100%;
+}
+.display-container{
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.del-link{
+    text-decoration: none;
+    background-color: white;
+    color: black;   
+    padding: 10px;
+    
+}
+
+.update-link{
+    text-decoration: none;
+    background-color: white;
+    color: black;   
+    padding: 10px;
+    border-radius: 10px;
+}

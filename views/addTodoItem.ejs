@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/addTodo.css" />
+    <title>Document</title>
+</head>
+<body>
+    <%- include('layout/addTodoItem')  %> 
+    
+    <div class="form-container">
+      <form method="POST" action="/api/addTodoItem" enctype="multipart/form-data"></form>
+      <div class="form-field">
+        <input type="file" placeholder="Select image" name="image">
+       </div>
+
+
+        <div class="form-field">
+          <label for="inputfullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="inputfullname">
+        </div>
+        <div class="form-field">
+          <label for="inputEmailAddress" class="form-label">Email <Address></Address></label>
+          <input type="text" class="form-control" id="inputEmailAddress">
+        </div>
+        <div class="form-field">
+            <label for="inputphoneNumber" class="form-label">phoneNumber</label>
+            <input type="phoneumber" class="form-control" id="inputphone">
+          </div>
+          <div class="form-field">
+            <label for="inputCountry" class="form-label">Country <Address></Address></label>
+            <input type="text" class="form-control" id="inputCountry">
+          </div>
+          <div class="form-field">
+            <label for="inputstate" class="form-label">State</label>
+            <input type="state" class="form-control" id="inputstate">
+          </div>
+          <div class="form-field">
+            <label for="inputCity" class="form-label">City <Address></Address></label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-field">
+            <label for="inputAddress" class="form-label">Address<Address></Address></label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          <div class="form-field">
+            <label for="inputzipcode" class="form-label">Zip code<Address></Address></label>
+            <input type="text" class="form-control" id="inputzipcode">
+          </div>
+
+
+        <div class="form-field">
+          <button type="submit" class="btn btn-primary text-right">Add User</button>
+        </div>
+      </form>
+
+
+</body>
+</html>
